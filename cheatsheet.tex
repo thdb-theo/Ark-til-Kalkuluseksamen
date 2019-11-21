@@ -1,0 +1,148 @@
+\documentclass[defaultpackages]{cheatsheet}
+\usepackage{lipsum}
+\usepackage{amssymb}
+\title{Kalkulus 1}
+\author{Theodor Tollersrud}
+\makeatletter
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\newcommand*{\myeq}[1]{\stackrel{\mathclap{\normalfont\mbox{$\left(#1\right)$}}}{=}}
+\makeatother
+\begin{document}
+
+\tableofcontents
+
+	\section{Hjemmeeksamen}
+	\subsection{}
+	\subsubsection{}
+	\begin{align*}
+		z^2+\sqrt{3}z+1&=0\\
+		z&=\frac{-\sqrt{3} \pm \sqrt{(\sqrt{3})^2 - 4}}{2}\\
+		z&=\frac{-\sqrt{3} \pm -\sqrt{-1}}{2}\\
+		z = \frac{-\sqrt{3}}{2} + \frac{1}{2}i &\vee z = \frac{-\sqrt{3}}{2} - \frac{1}{2} i\\
+		z_1 = \rho e ^ {i\theta_1}\quad&\quad z_2 = \rho e ^ {i\theta_2}\\
+		\rho &= \sqrt{(\Re z)^2 + (\Im z)^2}\\\
+		\rho &= \sqrt{\left(-\frac{\sqrt{3}}{2}\right)^2 + \left(\frac{1}{2}\right)^2}\\
+		\rho &= \sqrt{\frac{3}{4} + \frac{1}{4}} = 1\\
+		\cos \theta = \frac{\Re z}{\rho} \quad & \quad \sin \theta = \frac{\Im z}{\rho}\\
+		\cos \theta_1 &= \frac{-\frac{\sqrt{3}}{2}}{1} = -\frac{\sqrt{3}}{2}\\
+		\sin \theta_1 &= \frac{\frac{1}{2}}{1} = \frac{1}{2}\\
+		z_1 \text{ er i \rom{2}}&\text{ kvadrant}\\
+		\theta_2 = \frac{5}{6}\pi\\
+		\cos \theta_2 &= \frac{-\frac{\sqrt{3}}{2}}{1} = -\frac{\sqrt{3}}{2}\\
+		\sin \theta_2 &= \frac{-\frac{1}{2}}{1} = -\frac{1}{2}\\
+		z_2 \text{ er i \rom{3}}&\text{ kvadrant}\\
+		\theta_2 = \frac{7}{6}\pi\\
+		z_1 = e^{i\frac{5}{6}\pi}\quad&\quad z_2=e^{i\frac{7}{6}\pi}\\
+	\end{align*}
+	\subsubsection{}
+	$f(x) = x$ er et polynom av første grad. Vi bruker ukjente koefisienters metode. Løsningen er kanskje på formen $Ax+B$
+	\begin{align*}
+		y_p &= Ax + B\\
+		y^{\prime\prime}_p + \sqrt{3}y_p^\prime + y_p &= 0 + \sqrt{3}A + B\\
+		x=0&\implies\sqrt{3}A + B = 0\\
+		x=1&\implies A+\sqrt{3}A+B=1\\
+		B&=-\sqrt{3}A\\
+		A + \sqrt{3}A - \sqrt{3}A &= 1\\
+		A &= 1\\
+		\sqrt{3} + B &= 0\\
+		B &= -\sqrt{3}\\
+		y_p = x - \sqrt{3} \quad&\text{Partikulær løsning}
+	\end{align*}
+	Vi finner $y_h$
+	\begin{align*}
+		&r^2 + \sqrt{3}r + 1 = 0\\
+		&r = -\frac{\sqrt{3}}{2} + \frac{1}{2}i \vee r = -\frac{\sqrt{3}}{2} - \frac{1}{2}i\\
+		&y_h = Ce^{\left(-\frac{\sqrt{3}}{2} + \frac{1}{2}i\right)x}+  De^{\left(-\frac{\sqrt{3}}{2} - \frac{1}{2}i\right)x}\\
+		&y = y_p + y_h\\
+		&y = x - \sqrt{3} + y_h
+	\end{align*}
+	\subsection{}
+	\subsubsection{}
+	\begin{align*}
+		&\lim_{x\to 0} \frac{\arcsin x - \sin x}{x^2}\\
+		\myeq{\frac{0}{0}}&\lim_{x\to 0} \frac{\frac{1}{\sqrt{1-x^2}} - \cos x}{2x}\\
+		\myeq{\frac{0}{0}}&\lim_{x\to 0} \frac{x(1-x^2)^{-\frac{3}{2}}+\sin x}{2} = 0
+	\end{align*}
+	\subsubsection{}
+	\begin{align*}
+	&\int \frac{\arctan x \ln \arctan x}{1+x^2} \;dx\\
+	u &= \arctan u\\
+	\frac{du}{dx}&= \frac{1}{x^2+1}\\
+	dx &= (x^2+1)\;du\\
+	&\int u \ln u \; du\\
+	=& \frac{1}{2} u^2 \ln u - \int \frac{1}{2}u^2 \cdot \frac{1}{u}\;du\\
+	=& \frac{1}{2} u^2 \ln u - \frac{1}{2} \int u\;du\\
+	=& \frac{1}{2} u^2 \ln u - \frac{1}{2} \cdot \frac{1}{2} u^2 + C \\
+	=& \frac{1}{2} \arctan^2 x \ln \arctan x \\-& \frac{1}{4} \arctan^2x + C
+	\end{align*}
+	\subsubsection{}
+	\begin{align*}
+		&f(x) = 1 + (x-2)^2\\
+		&g(x) = 3 - (x-2)^2\\
+		&f(x)=g(x)\implies x=1 \vee x=3\\
+		&A = \int_1^3 g(x) \;dx - \int_1^3 f(x) \;dx\\
+		&A = \frac{8}{3}
+	\end{align*}
+	\subsection{}
+	\begin{align*}
+		&f : [-\pi,\,\pi] \to (-\infty,\,\infty)\\
+		&f(x) = \begin{cases}
+		\cos x,\quad &0\le x\le \pi\\
+		x^2+1,\quad &-\pi \le x < 0
+		\end{cases}\\
+		&\lim_{x\to 0^+} f(x) = \lim_{x\to 0^+}\cos x = 1\\
+		&\lim_{x\to 0^-} f(x) = \lim_{x\to 0^-}x^2+1 = 1
+	\end{align*}
+	$f$ er kontinuerlig på hele $[-\pi,\,\pi]$
+	$f$ er deriverbar på hele intervallet dersom den er deriverbar i $x=0$
+	TODO
+	\subsubsection{}
+	TODO
+	\subsubsection{}
+	$g : (-\inf,\,\inf) \to (0,\,1)$ er deriverbar og strengt voksende overalt.
+	\begin{align*}
+		&h(x) = \frac{e^{g(x)}}{g(x)}\\
+		&h^\prime(x) = \frac{g^\prime(x)e^{g(x)}(g(x)-1)}{g(x)^2}
+	\end{align*}
+
+	\[
+	 \left.
+	\begin{array}{ll}
+		g(x)- 1 \le 0\,\forall\,x \in \mathbb{R}\\
+		g^\prime(x) > 0\,\forall\,x \in \mathbb{R}\\
+		e^{g(x)} > 0\,\forall\,x \in \mathbb{R}\\
+		g(x)^2 > 0\,\forall\,x \in \mathbb{R}\\
+	\end{array}
+	\right \}\Rightarrow h^\prime(x)\le 0 \]
+	\section{Diffligninger}
+	\subsection{Førsteordens lineære}
+	\begin{align*}
+		&y^\prime + f(x)y = g(x)\\
+		&y = e^{-F(x)}\left(\int e^{F(x)}g(x)\,dx + C\right)
+	\end{align*}
+\subsection{Annenordens homogen med konstante koeffisienter}
+\begin{align*}
+	&y^{\prime\prime}+py^\prime+qy=0\\
+\end{align*}
+	$y_1$ og $y_2$ er løsninger. Da er også
+	$$y = Cy_1 + Dy_2$$
+	en løsning med alle $C$ og $D$.
+	For å finne $y_1$ og $y_2$ løser vi den karakteristiske ligningen
+	\[r^2+pr + q = 0\]
+	\paragraph{To røtter}
+	Dersom vi har to røtter er
+	\[y = Ce^{r_1x} + De^{r_2x}\]
+	Vi vet at $r_1+r_2=-p$
+	\paragraph{\'En rot}
+	\[y=Ce^{r_1x}+Dxe^{r_1x}\]
+	\paragraph{Komplekse røtter}
+	To røtter $r_1=a+ib$ og $r_2 = a-ib$
+	\[y=e^{ax}(C\cos(bx)+D\sin (bx)\]
+	
+	
+	
+	
+	
+	\section{Lorem}
+	\lipsum[1-40]
+\end{document}

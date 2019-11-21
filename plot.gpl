@@ -1,0 +1,10 @@
+set terminal pdf
+set output "output.pdf"
+
+f(x) = (x+sqrt(x*x-4))/2
+g(x) = (x-sqrt(x*x-4))/2
+set xlabel "a"
+plot real((x+sqrt(x*x-4))/2) with lines linestyle 1, \
+     imag((x+sqrt(x*x-4))/2) with lines linestyle 2, \
+     real((x-sqrt(x*x-4))/2) with lines linestyle 3, \
+     imag((x-sqrt(x*x-4))/2) with lines linestyle 4
