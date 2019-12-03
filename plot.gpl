@@ -1,10 +1,22 @@
-set terminal pdf
-set output "output.pdf"
+set terminal epslatex color
+set out 'plot.tex'
 
-f(x) = (x+sqrt(x*x-4))/2
-g(x) = (x-sqrt(x*x-4))/2
+
+set view 35, 35
+#set view equal xyz
+set ticslevel 0
+
+set xzeroaxis
+set yzeroaxis
+set zzeroaxis 
+
 set xlabel "a"
-plot real((x+sqrt(x*x-4))/2) with lines linestyle 1, \
-     imag((x+sqrt(x*x-4))/2) with lines linestyle 2, \
-     real((x-sqrt(x*x-4))/2) with lines linestyle 3, \
-     imag((x-sqrt(x*x-4))/2) with lines linestyle 4
+set zlabel "real"
+set ylabel "imag"
+
+set xrange [-3:3]
+set yrange [-3:3]
+set zrange [-3:3]
+
+splot "dataz1.txt" u 1:2:3 with lines title "$\\frac{a - \\sqrt{4a^2 - 4}}{2}$",\
+    "dataz2.txt" u 1:2:3 with lines title "$\\frac{a + \\sqrt{4a^2 - 4}}{2}$",

@@ -1,19 +1,117 @@
+\setcounter {tocdepth}{3}
 \babel@toc {english}{}
-\contentsline {section}{\numberline {1}Hjemmeeksamen}{1}
-\contentsline {subsection}{\numberline {1.1}}{1}
-\contentsline {subsubsection}{\numberline {1.1.1}}{1}
-\contentsline {subsubsection}{\numberline {1.1.2}}{1}
-\contentsline {subsection}{\numberline {1.2}}{1}
-\contentsline {subsubsection}{\numberline {1.2.1}}{1}
-\contentsline {subsubsection}{\numberline {1.2.2}}{1}
-\contentsline {subsubsection}{\numberline {1.2.3}}{1}
-\contentsline {subsection}{\numberline {1.3}}{1}
-\contentsline {subsubsection}{\numberline {1.3.1}}{1}
-\contentsline {subsubsection}{\numberline {1.3.2}}{1}
-\contentsline {section}{\numberline {2}Diffligninger}{1}
-\contentsline {subsection}{\numberline {2.1}F\IeC {\o }rsteordens line\IeC {\ae }re}{1}
-\contentsline {subsection}{\numberline {2.2}Annenordens homogen med konstante koeffisienter}{1}
-\contentsline {paragraph}{To r\IeC {\o }tter}{1}
-\contentsline {paragraph}{\'En rot}{1}
-\contentsline {paragraph}{Komplekse r\IeC {\o }tter}{1}
-\contentsline {section}{\numberline {3}Lorem}{1}
+\def \brnk@cur@col {1}
+\contentsline {section}{\numberline {1}Enkle ting} {1\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {1.1}Polynomdivisjon} {1\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {1.2}Fullf\IeC {\o }re kvadrat} {1\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {1.3}inf og sup} {1\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {1.4}Begreper} {1\relax .\brnk@cur@col }
+\contentsline {section}{\numberline {2}Kan v\IeC {\ae }re nyttig} {1\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {2.1}Integral av invers funksjon} {1\relax .\brnk@cur@col }
+\contentsline {section}{\numberline {3}Komplekse tall} {1\relax .\brnk@cur@col }
+\def \brnk@cur@col {2}
+\contentsline {subsection}{\numberline {3.1}Trekke r\IeC {\o }tter av komplekse tall} {1\relax .\brnk@cur@col }
+\contentsline {section}{\numberline {4}Noen setninger} {1\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {4.1}Skj\IeC {\ae }ringssetningen} {1\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {4.2}Middelverdisetningen} {1\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {4.3}epsilon-delta} {1\relax .\brnk@cur@col }
+\contentsline {section}{\numberline {5}Differensligninger} {1\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {5.1}To reelle r\IeC {\o }tter} {1\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {5.2}\'En reell rot} {1\relax .\brnk@cur@col }
+\def \brnk@cur@col {3}
+\contentsline {subsection}{\numberline {5.3}Komplekse r\IeC {\o }tter} {1\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {5.4}Inhomogene} {1\relax .\brnk@cur@col }
+\contentsline {section}{\numberline {6}Integrering} {1\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {6.1}Delvis integrasjon} {1\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {6.2}Substutisjon} {1\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {6.3}Delbr\IeC {\o }koppspaltning} {1\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {6.3.a}Eksempler} {1\relax .\brnk@cur@col }
+\contentsline {paragraph}{Kan ikke faktoriseres, men smuglingen er veldig lett} {1\relax .\brnk@cur@col }
+\contentsline {paragraph}{Kan faktoriseres} {1\relax .\brnk@cur@col }
+\def \brnk@cur@col {4}
+\contentsline {paragraph}{En j\IeC {\ae }vel} {1\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {6.4}Definisjon} {1\relax .\brnk@cur@col }
+\def \brnk@cur@col {1}
+\contentsline {section}{\numberline {7}Newtons metode} {2\relax .\brnk@cur@col }
+\contentsline {section}{\numberline {8}Diffligninger} {2\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {8.1}F\IeC {\o }rsteordens line\IeC {\ae }re} {2\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {8.2}Annenordens homogen med konstante koeffisienter} {2\relax .\brnk@cur@col }
+\contentsline {paragraph}{To r\IeC {\o }tter} {2\relax .\brnk@cur@col }
+\contentsline {paragraph}{\'En rot} {2\relax .\brnk@cur@col }
+\contentsline {paragraph}{Komplekse r\IeC {\o }tter} {2\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {8.3}Annenordens inhomogen} {2\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {8.3.a}Fremgangsm\IeC {\r a}te for \IeC {\r a} l\IeC {\o }se} {2\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {8.3.b}Parametervariasjon} {2\relax .\brnk@cur@col }
+\def \brnk@cur@col {2}
+\contentsline {subsection}{\numberline {8.4}Separable Diffligninger} {2\relax .\brnk@cur@col }
+\contentsline {section}{\numberline {9}Taylorpolynom} {2\relax .\brnk@cur@col }
+\setcounter {tocdepth}{1}
+\contentsline {section}{\numberline {10}Hjemmeeksamen} {2\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {10.1}} {2\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {10.1.a}} {2\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {10.1.b}} {2\relax .\brnk@cur@col }
+\def \brnk@cur@col {3}
+\contentsline {subsection}{\numberline {10.2}} {2\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {10.2.a}} {2\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {10.2.b}} {2\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {10.2.c}} {2\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {10.3}} {2\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {10.3.a}} {2\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {10.3.b}} {2\relax .\brnk@cur@col }
+\def \brnk@cur@col {4}
+\contentsline {section}{\numberline {11}Obligatorisk Oppgave} {2\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {11.1}} {2\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.1.a}} {2\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.1.b}} {2\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.1.c}} {2\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.1.d}} {2\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.1.e}} {2\relax .\brnk@cur@col }
+\def \brnk@cur@col {1}
+\contentsline {subsubsection}{\numberline {11.1.f}} {3\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {11.2}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.2.a}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.2.b}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.2.c}} {3\relax .\brnk@cur@col }
+\def \brnk@cur@col {2}
+\contentsline {subsection}{\numberline {11.3}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.3.a}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.3.b}} {3\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {11.4}} {3\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {11.5}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.5.a}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.5.b}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.5.c}} {3\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {11.6}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.6.a}} {3\relax .\brnk@cur@col }
+\def \brnk@cur@col {3}
+\contentsline {subsubsection}{\numberline {11.6.b}} {3\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {11.7}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.7.a}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.7.b}} {3\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {11.8}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.8.a}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.8.b}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.8.c}} {3\relax .\brnk@cur@col }
+\def \brnk@cur@col {4}
+\contentsline {subsubsection}{\numberline {11.8.d}} {3\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {11.9}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.9.a}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {11.9.b}} {3\relax .\brnk@cur@col }
+\contentsline {section}{\numberline {12}Eksamen 2010} {3\relax .\brnk@cur@col }
+\contentsline {subsection}{\numberline {12.1}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {12.1.a}} {3\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {12.1.b}} {3\relax .\brnk@cur@col }
+\def \brnk@cur@col {1}
+\contentsline {subsection}{\numberline {12.2}} {4\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {12.2.a}} {4\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {12.2.b}} {4\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {12.2.c}} {4\relax .\brnk@cur@col }
+\def \brnk@cur@col {2}
+\contentsline {subsection}{\numberline {12.3}} {4\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {12.3.a}} {4\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {12.3.b}} {4\relax .\brnk@cur@col }
+\contentsline {subsubsection}{\numberline {12.3.c}} {4\relax .\brnk@cur@col }
+\def \brnk@cur@col {3}
+\contentsline {subsection}{\numberline {12.4}} {4\relax .\brnk@cur@col }
+\def \brnk@cur@col {4}
+\contentsline {section}{\numberline {13}Tilfeldige oppgaver} {4\relax .\brnk@cur@col }
