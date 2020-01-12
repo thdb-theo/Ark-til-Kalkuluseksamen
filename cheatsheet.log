@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.9)  3 DEC 2019 13:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.9)  22 DEC 2019 21:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1286,12 +1286,12 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 6808) in paragraph at lines 13--13
+Underfull \hbox (badness 6808) in paragraph at lines 20--20
  [][] []\OT1/cmr/m/n/7 Trekke r^^\tter av kom- 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
  [][] []\OT1/cmr/m/n/7 Annenordens ho-mogen 
  []
 
@@ -1310,17 +1310,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--110
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--176
+Underfull \hbox (badness 10000) in paragraph at lines 199--218
 \OT1/cmr/m/n/7 Enklere fork-lart s^^Wa finnes det
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--176
+Underfull \hbox (badness 10000) in paragraph at lines 199--218
 \OT1/cmr/m/n/7 tan-gent har samme stign-ingstall
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--176
+Underfull \hbox (badness 10000) in paragraph at lines 199--218
 \OT1/cmr/m/n/7 som sekan-ten mel-lom $\OML/cmm/m/it/7 a$ \OT1/cmr/m/n/7 og $\OML/cmm/m/it/7 b$\OT1/cmr/m/n/7 .
  []
 
@@ -1330,89 +1330,88 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--297
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 [] []\OT1/cmr/bx/n/7 Kan ikke fak-toris-eres, men
- []
-
-
-Overfull \hbox (0.73967pt too wide) detected at line 386
-[]
  []
 
 [1
 
 {/home/theo/.texlive2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 450.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+Overfull \hbox (0.73967pt too wide) detected at line 428
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 434--436
+\OT1/cmr/m/n/7 Dette kan l^^\ses med
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 509.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 450.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 509.
 
-Underfull \hbox (badness 8075) in paragraph at lines 457--458
+Underfull \hbox (badness 8075) in paragraph at lines 516--517
 []\OT1/cmr/m/n/7 Vi har fun-net den par-tikul^^Zre
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 621--624
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 684--687
 
  []
 
 
-Underfull \hbox (badness 6641) in paragraph at lines 671--673
+Underfull \hbox (badness 6641) in paragraph at lines 734--736
 \OT1/cmr/m/n/7 Vi har lokale ek-se-malpunk-ter der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--681
+Underfull \hbox (badness 10000) in paragraph at lines 742--744
 $[]$ \OT1/cmr/m/n/7 er et lokalt ek-
  []
 
-[2]
-Overfull \hbox (7.99957pt too wide) in paragraph at lines 697--725
+
+Overfull \hbox (7.99957pt too wide) in paragraph at lines 760--788
 [] 
  []
 
 [3]
-<idk.png, id=28, 322.20375pt x 339.2675pt>
+<idk.png, id=26, 322.20375pt x 339.2675pt>
 File: idk.png Graphic file (type png)
 <use idk.png>
-Package pdftex.def Info: idk.png  used on input line 1105.
+Package pdftex.def Info: idk.png  used on input line 1168.
 (pdftex.def)             Requested size: 136.89774pt x 144.15312pt.
 
-Overfull \hbox (1.54518pt too wide) detected at line 1120
+Overfull \hbox (1.54518pt too wide) detected at line 1183
 []
  []
 
-<idk2.png, id=29, 843.15pt x 713.66624pt>
+<idk2.png, id=27, 843.15pt x 713.66624pt>
 File: idk2.png Graphic file (type png)
 <use idk2.png>
-Package pdftex.def Info: idk2.png  used on input line 1139.
+Package pdftex.def Info: idk2.png  used on input line 1202.
 (pdftex.def)             Requested size: 136.89774pt x 115.86594pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1135--1140
-\OT1/cmr/m/n/7 Dermed er f kon-tin-uerlig i $\OML/cmm/m/it/7 x[]$\OT1/cmr/m/n/7 .
+Underfull \hbox (badness 10000) in paragraph at lines 1198--1203
+\OT1/cmr/m/n/7 Dermed er f kon-tin-uerlig i $\OML/cmm/m/it/7 x[]$
  []
 
-
-Overfull \hbox (11.38075pt too wide) in paragraph at lines 1226--1227
-[][] 
- []
-
-[4 </home/theo/Documents/Uni/kalk1/kalk1/idk.png> </home/theo/Documents/Uni/kalk1/kalk1/idk2.png>] [5] (/home/theo/Documents/Uni/kalk1/kalk1/cheatsheet.aux) ) 
+[4 </home/theo/Documents/Uni/kalk1/kalk1/idk.png> </home/theo/Documents/Uni/kalk1/kalk1/idk2.png>] (/home/theo/Documents/Uni/kalk1/kalk1/cheatsheet.aux) ) 
 Here is how much of TeX's memory you used:
- 39659 strings out of 492982
- 929207 string characters out of 6134897
- 2031474 words of memory out of 5000000
- 42559 multiletter control sequences out of 15000+600000
- 534320 words of font info for 37 fonts, out of 8000000 for 9000
+ 39599 strings out of 492982
+ 928002 string characters out of 6134897
+ 2013797 words of memory out of 5000000
+ 42501 multiletter control sequences out of 15000+600000
+ 533715 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,17n,105p,18300b,2290s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on /home/theo/Documents/Uni/kalk1/kalk1/cheatsheet.pdf (5 pages, 376777 bytes).
+ 69i,17n,105p,18300b,2330s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on /home/theo/Documents/Uni/kalk1/kalk1/cheatsheet.pdf (4 pages, 353009 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 66 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

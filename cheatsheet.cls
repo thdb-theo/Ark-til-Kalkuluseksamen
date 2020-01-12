@@ -83,8 +83,7 @@
 \setlength\belowdisplayshortskip{1pt}
 
 
-\usepackage{etoolbox}
-\makeatletter
+\RequirePackage{etoolbox}
 \newcounter{brnk@col@count}
 \renewcommand*\addcontentsline[3]
   {%
@@ -123,7 +122,6 @@
   }
 \pretocmd\mc@lastcol@status@write{\brnk@patch@last}{}{\brnk@patch@error}
 \pretocmd\mc@col@status@write{\brnk@patch@else}{}{\brnk@patch@error}
-\makeatother
 
 
 

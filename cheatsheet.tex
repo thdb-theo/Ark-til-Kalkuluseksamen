@@ -123,11 +123,53 @@
 	\subsection{Begreper}
 	\textbf{Konveks}\quad $\cup$\quad $f''(x) > 0$\\
 	\textbf{Konkav} \quad $\cap$\quad $f''(x) < 0$
+	\subsection{tangent}
+	\[y-y_1 = f'(x)(x-x_1)\]
+	\subsection{sekant}
+	\begin{gather*}
+		m = \frac{\Delta y}{\Delta x} = \frac{y_2 - y_1}{x_2 - x_1}\\
+		y - y_1 = m(x-x_1)
+	\end{gather*}
 	\section{Kan være nyttig}
 	\subsection{Integral av invers funksjon}
 	\phantom{}
 	\[\int f^{-1}(y)\,dy = yf^{-1}(y)-F\circ f^{-1}(y) + C\]
 	Kan kanskje også løses med og ta arealet av rektangelet fra $a$ til $b$ i $x$-retning og $f(a)$ til $f(b)$ i $y$-retning minus $\int_a^b f(x) \,dx$.
+	\subsection{Skrå asymptote}
+	\begin{gather*}
+		a = \lim_{x\to\infty} \frac{f(x)}{x}\\
+		b = \lim_{x\to\infty} f(x) - ax
+	\end{gather*}
+	Dersom grensene eksisterer, har $f$ en skrå asymptote $ax+b$. Hvis en av grensene ikke finnes, er det ikke noen skrå asymptote.
+	\skippingparagraph
+	$ax+b$ er en skrå asymptote av $f$ hvis
+	\[\lim_{x\to\infty} \left[f(x) - (ax+b)\right] = 0\]
+	\subsection{Lengden av en graf}
+	Lengden langs en grad fra a til b er gitt ved.
+	\begin{gather*}
+		L = \int_a^b \sqrt{1+f'(x)}
+	\end{gather*}
+	\subsection{Numerisk integrasjon}
+	Trapesmetoden
+	\begin{gather*}
+		\int_a^bf(x)\,dx \\
+		\approx \frac{\Delta x}{2}\left(f(x_0) + f(x_n) + 2 \sum_{i=1}^{n-1}f(x_i)\right)
+	\end{gather*}
+	Simpsons metode. Annenhver 2 og 4, unntatt først og sist. 2 på partallsledd, 4 på oddetallsledd.
+	\begin{gather*}
+		\int_a^bf(x)\,dx \\
+		\approx \frac{\Delta x}{3}[f(x_0)+4f(x_1)+2f(x_2)+\cdots\\
+		+2f(x_{2n-2}) + 4f(x_{2n-1}) + f(x_{2n})]
+	\end{gather*}
+	\subsection{Dreie om $x$-aksen}
+	Grillspyd
+	\begin{gather*}
+		V = \int_a^b \pi f(x)^2\,dx
+	\end{gather*}
+	\subsection{Dreie om $y$-aksen}
+	\begin{gather*}
+		V = \int_a^b 2\pi xf(x)\,dx
+	\end{gather*}
 	\section{Komplekse tall}
 
 	$z$ og $w$ er komplekse tall
@@ -377,14 +419,31 @@ $\epsilon$ er en avstand fra 12. Den er liten som jeg vil. Det som det betyr at 
 	partisjon av intervallet $[a,\,b]$ er en endelig mengde $\Pi = \{x_0,\,x_1,\,\cdots,\,x_n\}$ slik at 
 	\[a = x_0<x_1<\cdots<x_n=b\]
 	\begin{align*}
-		&M_i = \sup\{f(x) \,\colon x\in [x_{i-1},\,x_i]\}\\
-		&m_i = \inf\{f(x) \,\colon x\in [x_{i-1},\,x_i]\}\\
+		&M_i = \sup\{f(x) \,\colon x\in [x_{i-1},\,x_i]\}\tag{$\max(f(x_i), f(x_{x-1}))$}\\
+		&m_i = \inf\{f(x) \,\colon x\in [x_{i-1},\,x_i]\}\tag{$\min(f(x_i), f(x_{x-1}))$}\\
 		&\Oe(\Pi) = \sum_{i=1}^{n} M_i(x_i-x_{i-1})\\
 		&\mathcal{N}(\Pi) = \sum_{i=1}^n m_i(x_i-x_{i-1})\\
 		&\overline{\int_a^b} f(x) dx = \inf\{\Oe(\Pi)\,\colon\text{alle mulige } \Pi\}\\
 		&\underline{\int_a^b} f(x) dx = \inf\{\mathcal{N}(\Pi)\,\colon\text{alle mulige } \Pi\}
 	\end{align*}
 	Dersom $\overline{\int_a^b} f(x) dx = \underline{\int_a^b} f(x) dx$ er $f$ integrerbar
+	\subsection{Tips}
+	\subsubsection{$\int \sqrt[n]{\frac{ax+b}{cx+d}}$}
+	Substituer $u=\sqrt[n]{\frac{ax+b}{cx+d}}$\\
+	Løs for $x$, deriver, finn $\frac{dx}{du}$ og deretter $dx$
+	\[I = \int u \,dx\]
+	Dette kan løses med delbrøkoppspaltning
+	\subsubsection{$\int R(\sin x, \cos x)$}
+	\begin{gather*}
+		R(\sin x, \cos x)=\\
+		 \frac{\displaystyle\sum_{n=0}^N\sum_{m=0}^M a_{n,m}\sin^n x\cos^m x}{\displaystyle\sum_{n=0}^L\sum_{m=0}^K b_{n,m}\sin^n x\cos^m x}
+	\end{gather*}
+	Substituer $u=\tan\frac{x}{2}$
+	\begin{gather*}
+		\sin x = \frac{2u}{1+u^2}\\
+		\cos x = \frac{1-u^2}{1+u^2}\\
+		dx = \frac{2}{1+u^2}\,du
+	\end{gather*}
 \section{Newtons metode}
 	\phantom{}
 	\[x_{n+1} = x_n - \frac{f(x_n)}{f^\prime(x_n)}\]
@@ -431,11 +490,11 @@ gitt multisettet $\Omega$ er løsningene til den karakteristiske ligningen $r^2 
 	\hline
 \end{tabular}
 
-Gitt funksjonen $\pumpkin\; \colon M \times \mathbb{R} \to \mathbb{N}$, gir multiplisiteten til et tall i et multiset, har vi
-\[y_p = x^{\pumpkin(\Omega, 0)}g(x)\]
+Gitt funksjonen $\Upsilon\; \colon M \times \mathbb{R} \to \mathbb{N}$, gir multiplisiteten til et tall i et multiset, har vi
+\[y_p = x^{\Upsilon(\Omega, 0)}g(x)\]
 
 Dersom vi har formen $f(x) = e^{ax}P(x)$ der P er et polynom, tipper vi
-\[y_p = e^{ax}x^{\pumpkin(\Omega, a)}Q(x)\]
+\[y_p = e^{ax}x^{\Upsilon(\Omega, a)}Q(x)\]
 der $Q$ er et polynom av samme grad som $P$.
 
 Dersom vi har formen $$f(x) = a^x(A\cos (bx) + B\sin (bx))$$ tipper vi
@@ -500,21 +559,25 @@ Taylorpolynomet til $f$ av grad $n$ om punktet $a$ er gitt ved
 		z&=\frac{-\sqrt{3} \pm -\sqrt{-1}}{2}\\
 		z = \frac{-\sqrt{3}}{2} + \frac{1}{2}i &\vee z = \frac{-\sqrt{3}}{2} - \frac{1}{2} i\\
 		z_1 = \rho e ^ {i\theta_1}\quad&\quad z_2 = \rho e ^ {i\theta_2}\\
+	\end{align*}
+	\begin{align*}
 		\rho &= \sqrt{(\Re z)^2 + (\Im z)^2}\\\
 		\rho &= \sqrt{\left(-\frac{\sqrt{3}}{2}\right)^2\!\!+\!\left(\frac{1}{2}\right)^2}\\
 		\rho &= \sqrt{\frac{3}{4} + \frac{1}{4}} = 1\\
 		\cos \theta = \frac{\Re z}{\rho} \quad & \quad \sin \theta = \frac{\Im z}{\rho}\\
 		\cos \theta_1 &= \frac{-\frac{\sqrt{3}}{2}}{1} = -\frac{\sqrt{3}}{2}\\
 		\sin \theta_1 &= \frac{\frac{1}{2}}{1} = \frac{1}{2}\\
-		z_1 \text{ er i \rom{2}}&\text{ kvadrant}\\
-		\theta_2 = \frac{5}{6}\pi\\
+	\end{align*}
+	\(z_1\) er i \rom{2} kvadrant
+	\begin{align*}
+		\theta_1 = \frac{5}{6}\pi\\
 		\cos \theta_2 &= \frac{-\frac{\sqrt{3}}{2}}{1} = -\frac{\sqrt{3}}{2}\\
 		\sin \theta_2 &= \frac{-\frac{1}{2}}{1} = -\frac{1}{2}\\
 		z_2 \text{ er i \rom{3}}&\text{ kvadrant}\\
 		\theta_2 = \frac{7}{6}\pi\\
 		z_1 = e^{i\frac{5}{6}\pi}\quad&\quad z_2=e^{i\frac{7}{6}\pi}\\
 	\end{align*}
-	\subsubsection{}
+		\subsubsection{}
 	$f(x) = x$ er et polynom av første grad. Vi bruker ukjente koefisienters metode. Løsningen er kanskje på formen $Ax+B$
 	\begin{align*}
 		y_p &= Ax + B\\
@@ -1133,7 +1196,7 @@ Dersom vi flytter om på leddene finner vi:
 		0 < | x - x_0 | < \delta \implies |x-x_0|<\frac{\epsilon}{|A|}\\
 		\implies |f(x) - f(x_0)|<\epsilon
 	\end{gather*}
-	Dermed er f kontinuerlig i $x_0$.
+	Dermed er f kontinuerlig i $x_0$
 	\rule{\columnwidth}{0.5pt}
 	\begin{figure}[H]
 		\includegraphics[width=\columnwidth]{idk2.png}
@@ -1151,80 +1214,11 @@ Dersom vi flytter om på leddene finner vi:
 		\end{tikzpicture}
 	\end{center}
 
-	\cofeAm{0.5}{1}{180}{-4.9cm}{7.23214cm}
+	\cofeAm{0.5}{0.6}{180}{4.4cm}{12.03214cm}
 
 	%\section{Kant}
 	%\kant[10-30]
 
-	\begin{figure*}
-
-		\begin{tikzpicture}
-		
-		\fill[blue!20!white] (-1.5,-0.7) rectangle (19.2,7.2);
-		
-		% sheep #1
-		\begin{scope}[xscale=-0.6,yscale=0.6]
-			\duck[body=white!80!brown, bill=white!60!brown, sheep]
-		\end{scope}
-		
-		% donkey
-		\begin{scope}[xscale=-0.8,yscale=0.8,xshift=-70,yshift=10]
-			\duck[body=fskin,bill=fbill,shorthair=fhair,bunny,inear=fbill]
-			\node[fskin,rotate=150,scale=3] at (1.75,1.59) {\reflectbox{\small\textsf{s}}};
-			\fill[fhair,rotate=45] (2.65,0.05) ellipse (0.15 and 0.07); 
-		\end{scope}  
-		
-		% building
-		\begin{scope}[scale=0.038,yshift=300,xshift=-1500]
-			\path[draw=brown!50!black,line width=6.000pt] (129.0546,0.7705) .. controls (122.1203,65.4904) and (113.6451,66.6461) .. (113.6451,66.6461) -- (113.6451,66.6461) (91.3013,59.3266) .. controls (92.3303,59.5764) and (93.3577,59.8332) .. (94.3832,60.0971) .. controls (139.4171,71.6830) and (180.7789,97.1457) .. (211.4045,132.1365) .. controls (242.2399,97.1582) and (283.7423,71.7125) .. (328.9019,60.0971) .. controls (329.9275,59.8333) and (330.9548,59.5765) .. (331.9838,59.3266) (294.2305,0.7705) .. controls (301.1648,65.4904) and (309.6400,66.6461) .. (309.6400,66.6461) -- (309.6400,66.6461);
-		\end{scope}
-		
-		% Mary
-		\begin{scope}[xscale=-1,yshift=15,xshift=-150]
-			\duck[tshirt=blue!30!gray,longhair,body=skin]
-		\end{scope} 
-		
-		% crib
-		\begin{scope}[scale=0.25,xshift=650,yshift=145]
-			\duck
-		\end{scope}
-		\begin{scope}[scale=0.038,yshift=1200,xshift=4100]
-			\path[draw=brown,line join=miter,line cap=butt,miter limit=10.00,line width=1.275pt] (5.6693,-15.5908) -- (22.6775,-28.3468)(22.6775,-15.5908) -- (5.6693,-28.3468);
-			\path[fill=brown,nonzero rule] (0.0000,-5.6693) -- (28.3468,-5.6693) -- (22.6775,-17.0082) -- (5.6693,-17.0082);
-		\end{scope}
-		
-		% Joseph
-		\begin{scope}[xscale=1,yshift=10,xshift=190]
-			\duck[tshirt=red!30!brown,shorthair=brown!50!black,body=skin]
-		\end{scope} 
-		
-		% sheep #2
-		\begin{scope}[xscale=0.6,yscale=0.6,yshift=10,xshift=455]
-			\duck[body=white!80!brown, bill=white!60!brown, sheep]
-		\end{scope}
-		
-		% Magi #1
-		\begin{scope}[yshift=-20,xshift=360]
-			\duck[tshirt=green!10!brown,shorthair=brown,crown=crown,body=skin,jacket=green!30!brown,buttons=green!10!brown!80!black,cake]
-		\end{scope}
-		
-		% Magi #2   
-		\begin{scope}[yshift=0,xshift=420]
-			\duck[tshirt=red!30!brown,shorthair=brown!45!black,crown=crown!70!yellow,body=skin!30!brown!80!black,bill=orange!50!brown!65!black,jacket=red!30!brown!80!black,beard,buttons=brown!45!black,pizza]
-		\end{scope}
-		
-		% Magi #3   
-		\begin{scope}[yshift=-10,xshift=480]
-			\duck[tshirt=teal!30!brown,shorthair=brown!65!red,crown=crown!80!yellow,body=skin!90!white,jacket=teal!30!brown!80!black,buttons=white!50!brown,wine]
-		\end{scope} 
-		
-		% comet
-		\begin{scope}[xscale=0.03,yscale=-0.03,yshift=-7000,xshift=-2000]
-			\path[fill=crown!80!yellow] (238.7832,10.0000) -- (234.8516,26.2656) -- (218.1582,27.4336) -- (230.2793,38.9707) -- (222.9434,54.0117) -- (238.9961,49.2832) -- (248.3535,63.1562) -- (252.2852,46.8906) -- (268.9785,45.7227) -- (261.8457,38.9336) .. controls (270.2556,38.8419) and (278.6830,40.2309) .. (286.5977,43.0781) .. controls (298.4672,47.3482) and (309.1501,54.8655) .. (317.1777,64.5957) .. controls (319.3767,67.2610) and (321.3804,70.0887) .. (323.1660,73.0469) -- (316.1934,49.2793) -- (325.9688,44.4219) .. controls (323.7865,42.0532) and (321.4179,39.8563) .. (318.8926,37.8574) .. controls (309.1476,30.1439) and (297.0216,25.4810) .. (284.6191,24.6797) .. controls (276.2092,24.1363) and (267.6990,25.3763) .. (259.7676,28.2207) -- (264.1934,19.1445) -- (248.1406,23.8730) -- (238.7832,10.0000) -- cycle;
-		\end{scope}
-		
-		\end{tikzpicture}
-	\end{figure*}
 	%\section{Terje Vigen}
 	%\input{terjevigen.txt}
 \end{document}
