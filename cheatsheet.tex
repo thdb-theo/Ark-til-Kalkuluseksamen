@@ -4,7 +4,6 @@
 \usepackage{tikzducks}
 \usepackage{tikzpeople}
 
-\usepackage{halloweenmath}
 \usepackage{coffee4}
 \usepackage{slashed}
 \usepackage{pgfplots}
@@ -29,12 +28,6 @@
 \usetikzlibrary{intersections}
 \usetikzlibrary{decorations.pathmorphing}
 
-\ifdefined\isboxes
-	\directlua{ require("drawboxes")}
-	\usepackage{graphicx,atbegshi}
-	\AtBeginShipout {\directlua{drawboxes.visual_debug()}}
- 	\usepackage{mathtools}
-\fi
 \title{Kalkulus 1}
 \author{Theodor Tollersrud}
 \makeatletter
